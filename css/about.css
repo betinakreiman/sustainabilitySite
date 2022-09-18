@@ -1,0 +1,66 @@
+
+
+.about {
+  text-align: center;
+  background: rgb(120, 165, 184);
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.aboutHeading {
+  color: rgb(169, 215, 216);
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  font-family: Oswald;
+  font-size: 4rem;
+}
+
+.mainText {
+  text-align: left;
+  color: white;
+  font-size: 1.4rem;
+  font-family: Oswald;
+}
+
+.join {
+  padding-top: 5vh;
+  padding-bottom: 6vh;
+  color: darkblue;
+}
+
+.joinButton {
+/*   padding-left: 20%;
+  padding-right: 20%; */
+  color: red
+}
+
+
+.join .joinbtn{
+  padding: 3% 11%;
+  border-radius: 50px;
+  color: rgb(84 114 153);
+}
+
+@media only screen and (max-width: 1070px) {
+  .about {
+    font-size: 95%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .about {
+    font-size: 90%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about {
+    font-size: 80%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}

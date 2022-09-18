@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.navbar{
+  height: auto;
+  background-color: rgb(80, 109, 121);
+  text-align: start;
+}
+.navbar-brand{
+  color: white;
+}
+
+ .linkInNav{
+  display: block;
+  padding-bottom: 1.5vh;
+}
+
+.linkInNav:hover {
+  color: rgb(31, 34, 38);
+}
+
+.everythingInNav{
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  word-wrap: break-word;
+  flex: 1;
+  min-width: 100%;
+}
+.bigLogo{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: Oswald;
+}
+
+.bigLogo:hover {
+  color: white;
+}
+
+.firstlineInNav{
+  padding-bottom: 2vh;
+}
+.linksInNav{
+  position: absolute;
+  width: 80%;
+}
+
+.linkInNav{
+  padding-right: 2%;
+  margin:0;
+  text-decoration: none;
+  color: rgb(33, 44, 49);
+}
+.footnoteEmail{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.footnoteEmailLink{
+  text-decoration: none;
+  color:white;
+  word-wrap: break-word;
+  min-width: 100%;
+}
+
+.footnoteCredit{
+  height: auto;
+  background-color: rgb(43, 50, 68);
+  color: white;
+  font-family: Oswald;
+  text-align: center;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+.madeByThe{
+  font-size: 1rem;
+}
+
+.creditLink{
+  font-size: 1.75rem;
+}
+
+.linkonHover:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+
+.linkonHover:hover{
+  text-decoration: underline;
+  color: white;
+} 
+
+
+
+.footnote{
+  height: 20%;
+  background-color: rgb(80, 109, 121);
+  text-align: center;
+  color: white;
+  
+}
+
+.footnoteContent{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gmail {
+  color: white;
+  text-decoration: none;
+}
+
+.gmail:hover {
+  text-decoration: underline;
+/*   color: rgb(129, 164, 182); */
+  color: white;
+}
+
+/* footnote */
+
+.devfootnote{
+  text-align: center;
+  height: auto;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  color: white;
+  background-color: rgb(80, 109, 121);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.footnoteHeading{
+  font-family: Oswald;
+  font-size: 25px;
+  
+}
+.smallerfootnoteText{
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.navbar-toggler{
+  float: right;
+}

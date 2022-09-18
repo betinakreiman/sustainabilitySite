@@ -1,0 +1,148 @@
+
+
+.free {
+  background-color: rgb(120, 165, 184);
+  height: auto;
+  padding-left: 25vh;
+  padding-right: 25vh;
+}
+
+/* Right Half */
+
+.rightText{
+  text-align: center;
+  padding-right: 5vh !important;
+  margin-top:5vh !important;
+  
+}
+.ColRightH{
+  color: rgb(182, 231, 228);
+  font-family: oswald;
+  font-size: 4rem;
+  
+}
+.initativeInput{
+  resize: none;
+  height: 50px;
+}
+.textAreaInput{
+  resize: none;
+  height: 130px;
+  width: auto;
+  text-decoration: none;
+}
+
+.formLabel{
+   font-size: 0.87rem;
+  font-weight: 220;
+}
+
+::placeholder{
+  color: gray;
+  font-weight: 300;
+  font-size: 0.88rem;
+  padding-left: 0.68vh;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  padding-right: 0.5vh;
+}
+
+.notText{
+  height: 4vh;
+}
+.formHeading{
+  font-weight: 300;
+  text-align: center;
+  font-size: 2.3rem;
+  padding-bottom: 3vh;
+  letter-spacing: 0.1rem;
+}
+
+.colRightP{
+  color: white;
+  font-weight: 500;
+  font-size: 1.4em;
+  font-family: oswald;
+}
+/* Schedule Form */
+
+.formHalf{
+  max-width: 100%;
+}
+
+.ScheduleForm{
+  background: white;
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  padding: 10vh 4vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  
+}
+ 
+.formInput{
+  border:none;
+  background: rgb(222, 254, 246);
+  border-bottom: 1px solid black;
+  width: 100%;
+} 
+
+.formRow{
+  padding-bottom: 4vh;
+}
+
+@media only screen and (max-width: 991px) {
+  .free {
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+  .rightText{
+  text-align: center;
+  padding-right: 0vh !important;
+  
+}
+
+  
+  .formHeading{
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.7rem;
+  padding-bottom: 3vh;
+  letter-spacing: 0.1rem;
+}
+
+  
+}
+  
+
+
+@media only screen and (max-width: 550px) {
+ .ScheduleForm{
+  padding: 10vh 2vh;
+  
+  }
+  .ColRightH{
+    font-size: 3rem;
+  }
+  .colRightP{
+    font-size: 1rem;
+  }
+
+  .free{
+    padding-left: 3vh;
+    padding-right: 3vh;
+  }
+}
+
+
+.ScheduleBtn{
+  border: none;
+  background-color: rgb(222, 254, 246);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 1.5vh 6vh;
+  font-weight: 350;
+  color: black;
+  font-size: 0.85rem;
+} 

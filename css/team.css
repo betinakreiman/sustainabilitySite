@@ -1,0 +1,414 @@
+/* Things we need for Caitlin 
+  links to social media on abt page.
+*/
+
+/* *{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.navbar{
+  height: auto;
+  background-color: rgb(80, 109, 121);
+  text-align: start;
+}
+.navbar-brand{
+  color: white;
+}
+
+ .linkInNav{
+  display: block;
+}
+
+.linkInNav:hover {
+  color: rgb(71, 71, 71);
+}
+
+.everythingInNav{
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  padding-left: 20%;
+  padding-right: 20%;
+  word-wrap: break-word;
+  flex: 1;
+  min-width: 100%;
+}
+.bigLogo{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: Oswald;
+}
+
+.bigLogo:hover {
+  color: white;
+}
+
+.firstlineInNav{
+  padding-bottom: 2vh;
+}
+.linksInNav{
+  position: absolute;
+  width: 80%;
+}
+
+.linkInNav{
+  padding-right: 2%;
+  margin:0;
+  text-decoration: none;
+  color: darkgray;
+}
+
+.footnoteEmailLink{
+  text-decoration: none;
+  color:white;
+  word-wrap: break-word;
+  min-width: 100%;
+}
+
+.footnoteCredit{
+  height: auto;
+  background-color: rgb(43, 50, 68);
+  color: white;
+  font-family: Oswald;
+  text-align: center;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+.madeByThe{
+  font-size: 1rem;
+}
+
+.creditLink{
+  font-size: 1.75rem;
+}
+
+.linkonHover:hover{
+  text-decoration: underline;
+  color: white;
+} */
+
+/* thjsdaflsdfadk ;l */
+/* 
+
+
+@media only screen and (max-width: 500px) {
+  .everythingInNav{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+} 
+
+
+ */
+
+
+
+
+
+.headingBig{
+  font-family: Oswald;
+}
+
+.heading {
+  background-color: rgb(120, 165, 184);
+  height: 28%;
+  padding-left:  25%;
+}
+
+.headingBig {
+  color: rgb(169, 215, 216);
+  padding-top: 7%;
+}
+
+.subject {
+  color: white;
+  padding-top: 1%;
+}
+
+
+.blueBorder {
+  background-color: rgb(120, 165, 184);
+  width: 96%;
+  margin-top: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh; /*TEMP*/
+}
+
+.greenthing{
+  width: 12%;
+  height: auto;
+  position: absolute;
+  margin-top: 19%;
+  padding-top: 0%;
+/*   margin-right: 68.5%; */
+  margin-left:18.25%;
+  z-index:1;
+}
+
+  .greenthing2{
+  width: 12%;
+  height: auto;
+  position: absolute;
+  margin-top: 19%;
+  padding-top: 0%;
+/*   margin-right: 4.25%; */
+  margin-left:35.50%;
+  z-index:1;
+}
+
+
+.greenthing1{
+  width: 12%;
+  height: auto;
+  position: absolute;
+  margin-top: 19%;
+  padding-top: 0%;
+  margin-left:4.75%;
+  z-index:1;
+}
+
+.members{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person{
+  width: 17%;
+  height: auto;
+  position: relative;
+  padding: 0;
+  margin:0;
+  margin-top: 5%;
+
+}
+
+.firstperson{
+  margin-right: 0.5%;
+  margin-left: 14.5%;
+}
+
+.middle{
+  margin-left: 0.5%;
+  margin-right:0.5%;
+}
+
+.lastperson{
+  margin-left: 0.5%;
+  margin-right: 14.5%;
+}
+
+.firsttwo{
+  margin-left: 32.5%;
+  margin-right:0.5%;
+}
+.lasttwo{
+  margin-right:32.5%;
+  margin-left:0.5%
+}
+
+.persondiv{
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+
+
+.bord {
+  background-color: rgb(80, 109, 121);
+  height: 25%;
+  position: relative;
+
+}
+
+.contact {
+  background-color: rgb(123, 170, 194);
+  width: 96%;
+  margin: auto;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 0;
+ 
+}
+
+.first {
+  color: white;
+  padding-left: 10%;
+  padding-top: 3%;
+  float: left;
+}
+
+.text {
+  color: white;
+  text-decoration: none;
+}
+
+.second {
+  text-align: left;
+  color: white;
+  float: left;
+  padding-left: 20%;
+  padding-top: 3%;
+}
+
+.third {
+  float: left;
+  color: white;
+  padding-left: 30%;
+  padding-top: 3%;
+}
+
+.icon {
+  color: white;
+  padding-right: 3%;
+  font-size: 130%;
+}
+
+.contactEmail{
+  text-decoration: none;
+  color: white;
+}
+/* .contactRow{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+ */
+.memberPic{
+  width:100%;
+  padding:0;
+}
+
+.officerPictures{
+  height: auto;
+/*   width: 100ch; */
+  padding-left:5%;
+  padding-right: 5%;
+  margin:0;
+  background-color: white;
+  padding-top: 0.5vh;
+
+  
+}
+
+.rowContainingPictures{
+  padding-top: 20vh;
+  padding-bottom:20vh;
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color: rgb(120, 165, 184);
+  margin-top: 4vh;
+}
+
+.contactContainer{
+  height: auto;
+  background-color: rgb(80, 109, 121);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.contactrow{
+  background-color: rgb(120, 165, 184);
+  color: white;
+  padding-top: 10vh;
+  padding-bottom: 7vh;
+  margin-top: 5vh;
+}
+
+.onesocial{
+  padding-bottom: 3vh;
+}
+
+.socialLabel{
+  font-family: Oswald;
+}
+
+.socialWord{
+  font-weight: 250;
+}
+/* .devfootnote{
+  text-align: center;
+  height: auto;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  color: white;
+  background-color: rgb(80, 109, 121);
+  padding-left: 10%;
+  padding-right: 10%;
+} */
+.smallerfootnoteText{
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.footnoteEmail{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+
+
+.ourteamheading{
+  background-color: rgb(120, 165, 184);
+  height: auto;
+  color: white;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-bottom: 3vh;
+  min-width: 100%:
+}
+
+.bigTeamHeading{
+  font-size: 4rem;
+  letter-spacing: 0.15rem;
+  color: rgb(169, 215, 216);
+  padding-bottom: 2vh;
+  font-family: Oswald;
+  font-weight: bold;
+  word-wrap: break-word;
+  min-width: 100%;
+}
+
+.smallTeamHeading{
+    font-size: 1rem;
+  font-weight: 250;
+}
+
+.follow{
+  color: black;
+}
+
+.officerName{
+  color: white;
+  font-family: Oswald;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+/* 
+.collapse{
+  flex-direction: column
+}
+ */
+/* @media only screen and (max-width: 992px) {
+  .navbar{
+    flex-direction: column !important;
+  }
+} */

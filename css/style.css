@@ -1,0 +1,229 @@
+/* main section with big logo and title */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.row1{
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+}
+.sustainabledev{
+  background-color: rgb(120, 165, 184);
+  height: auto;
+  padding: 0 7ch;
+}
+.sustainableHeading{
+  color: rgb(182, 231, 228);
+  font-family: Oswald;
+  font-size: 6rem;
+  padding-left: 3vh;
+  min-width: 100%;
+  margin: auto;
+  
+}
+
+.mainSlogo{
+  padding-right: 7vh;
+  height: 340px;
+  
+}
+
+@media only screen and (max-width: 1007px) {
+  .sustainableHeading{
+    font-size: 3.65rem;
+  }
+  .mainSlogo{
+  height: 230px;
+  
+  }
+  
+}
+
+@media only screen and (max-width: 720px) {
+  .sustainableHeading{
+    font-size: 3rem;
+    text-align: left;
+  }
+  .mainSlogo{
+    height: 170px;
+    padding-right: 4vh;
+  }
+  
+}
+
+@media only screen and (max-width: 604px) {
+  .sustainableHeading{
+    text-align: center;
+    font-size: 3.75rem;
+    padding-left: 0;
+  }
+  .mainSlogo{
+    height: 200px;
+    padding-right: 0;
+    text-align: center;
+    padding: auto;
+  }
+
+  .sustainableTop{
+    display: flex;
+    justify-content: center;
+  }
+
+  .sustainabledev{
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+  
+}
+  
+
+.img{
+  display: flex;
+  margin-left: 20%;
+  
+}
+
+/*  our mission */
+
+.ourMissionBlurb{
+  letter-spacing: .05rem;
+  line-height: 2.3rem;
+  
+}
+
+.ourMissionHeading{
+  font-family: Oswald;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+}
+
+.ourmission{
+  color: white;
+  text-align:center;
+  padding-bottom: 6%;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+/* Get In Touch Section*/
+
+
+.getInTouchSection{
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  max-width: 100%;
+  
+}
+
+.gitHeading{
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  background-color: white;
+}
+
+.gitFormInput{
+  width: 100%;
+  border:none;
+  background: rgb(222, 254, 246);
+  border-bottom: 1px solid black;
+}
+
+.formRow{
+  padding-bottom: 2%;
+}
+
+.gitsendBtn{
+  height: auto;
+  width: 100%;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  text-align: center;
+  border: none;
+  background: rgb(222, 254, 246);
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(51 51 51);
+}
+
+.textAreaInput{
+  resize: none;
+  height: 130px;
+}
+
+
+.gitFormLabel{
+   font-size: 0.87rem;
+  font-weight: 220;
+}
+
+.gitForm{
+  background-color: white;
+  border-radius: 25px;
+  text-align: start;
+  padding: 10vh 3vh;
+  margin: 5vh 5vh;
+  box-sizing: border-box;
+  
+
+}
+
+.col-md-8{
+  background-color: rgb(120, 165, 184);
+
+}
+
+
+/* Sign Up for Updates Section */
+
+.UpdateSignUp{
+  height: auto;
+  background: rgb(120, 165, 184);
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.updatesHeading{
+  font-size: 2em;
+  color: white;
+  padding-top: 3vh;
+  padding-bottom:1.5vh;
+  font-family: Oswald;
+}
+
+.joinBtn{
+  background-color: rgb(192, 252, 240);
+  border-style: 2px solid white;
+  font-size: 90%;
+  text-align: center;
+  margin-top: 3vh;
+  color: rgb(51 51 51);
+  font-weight: 300;
+  padding:0 !important;
+  overflow: hidden;
+}
+
+.form1{
+  padding-right: 23%;
+  padding-left: 23%;
+  
+}
+
+.emailupdate{
+  background: none;
+  height: 45px;
+}
+
+::placeholder{
+  color: white;
+  font-size: 0.85rem;
+  padding-left: 2vh;
+}
+
+
+.notText{
+  height: 4vh;
+}

@@ -1,0 +1,60 @@
+
+
+.branches {
+  background-color: rgb(120, 165, 184);
+  height: 46.5vh;
+}
+
+.branchesImg {
+  padding-left: 4%;
+  padding-top: 6.5vh;
+  float: left;
+ 
+}
+
+.img {
+  height: 40vh;
+  width: 20vw;
+}
+
+.branchesHeading {
+  color: white;
+  padding-top: 7%;
+  padding-left: 33%;
+  font-family: Oswald;
+  font-size: 50px;
+}
+
+.branchesText {
+  color: white;
+  padding-top: 1%;
+  padding-left: 33%;
+  width: 70%;
+}
+
+
+
+.blueBorder {
+  background-color: rgb(120, 165, 184);
+/*   background-color: yellow; */
+  height: 150vh;
+
+  position: relative;
+}
+
+.lightBorder {
+  background-color: rgb(176, 202, 215);
+  height: 90%;
+  width: 90%;
+  
+  margin-left: auto;
+
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.square {
+  width: 44%;
+  height: 44%;
+}
