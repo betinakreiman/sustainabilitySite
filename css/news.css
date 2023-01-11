@@ -49,3 +49,17 @@
     padding-right: 15%;
   }
 }
+
+.mainText{
+  text-align: center;
+}
+
+.mainText p{
+  font-size: 0.85em;
+}
+
+.newsImage {
+  text-align: center;
+  width: 75%;
+  margin: 2%;
+}
