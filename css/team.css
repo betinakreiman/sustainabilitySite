@@ -289,6 +289,8 @@ html, body {
 .memberPic{
   width:100%;
   padding:0;
+  height: 100%;
+  
 }
 
 .officerPictures{
